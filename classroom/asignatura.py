@@ -4,4 +4,5 @@ class Asignatura:
         self._salon = salon
 
     def __str__(self):
-        return self._nombre
+        return f"{self._nombre} remoto"
+    
